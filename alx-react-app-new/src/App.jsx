@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import './App.css'
 import WelcomeMessage from './components/WelcomeMessage'
 import UserProfile from './components/UserProfile'
+import Counter from './components/Counter'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <div>
       <WelcomeMessage />
       <Header />
+      <Counter />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography"  />
       <MainContent />
       <Footer />
